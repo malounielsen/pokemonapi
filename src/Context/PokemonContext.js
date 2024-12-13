@@ -4,7 +4,6 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 const PokemonContext=createContext(); 
 
 const PokemonProvider=({children})=> {
-    //states
     const [pokemon, setPokemon]=useState();
     const [searchPokemon, setSearchPokemon]=useState();
     const [team,setTeam]= useState(()=>{
