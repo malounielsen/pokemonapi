@@ -1,0 +1,156 @@
+.pokeabilities, .poketypes, .pokemembers {
+    box-shadow: 3px 3px 2px -2px #3466af;
+}
+.pokecard {
+    background-color: #21386e; 
+    width: 500px;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px; 
+    margin:auto; 
+    border-radius: 10px;
+    margin-top: 50px; 
+    color: white; 
+}
+
+.pokename {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px; 
+    font-size: 20px; 
+    
+}
+
+.pokeproperties{
+    display: flex; 
+    flex-direction: row;
+
+}
+
+.pokeabilities, .poketypes{
+    background-color:#1d2c5f;  
+    width: 50%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.pokeid{
+    background-color: #ffcb07;
+    border-radius: 5px;
+    width: 40px;
+    margin: auto; 
+}
+
+.teamlist{
+    position: fixed;
+    top:0;
+    right:0; 
+    background-color: #21386e;
+    width: 250px;
+    height: 100%;
+    margin-right: 10px;
+}
+.pokemembers {
+    background-color: #1d2c5f; 
+    display: flex; 
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    color: white; 
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px; 
+}
+
+.search {
+    padding: 30px; 
+}
+button {
+    background-color:#c7a008;
+    border: none;
+    margin: 10px; 
+    padding: 10px; 
+    color: white; 
+    border-radius: 3px; 
+}
+.pokememberinfo {
+    display: flex;
+    flex-direction: column; 
+}
+
+.pokemembers h5 {
+    color: white; 
+    margin: 0px; 
+    margin-top: 8px; 
+    padding: 0px;
+}
+.pokemembers p {
+    background-color: #ffcb07;
+    margin: 0px; 
+    padding: 0px;
+}
+.teamlist h3 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav {
+    color: white; 
+}
+
+.navlink {
+    color:white;
+    font-size: 30px; 
+}
+
+.layout {
+    text-align: center;
+}
+
+.randomblock {
+    position: fixed;
+    top:0;
+    left:0; 
+    width: 400px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.randomcard {
+    background-color: #21386e; 
+    width: 300px;
+    height: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px; 
+    margin:auto; 
+    border-radius: 10px;
+    margin-top: 40px; 
+    color: white; 
+}
+
+.randompokename {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px; 
+    font-size: 15px; 
+}
+
+.randomcard img {
+width: 50px;
+height: 60px; 
+}
+
+.randompokeabilities, .randompoketypes{
+    background-color:#1d2c5f;  
+    width: 50%;
+    margin: 15px;
+    padding: 8px; 
+    border-radius: 10px;
+}
